@@ -29,11 +29,11 @@ The documentation here reflects **my own experimentation and testing** on the Hu
 - [x] USB C Thunderbolt
 
 ## Not Working
-- [] Intel Iris Xe Graphics (3D Acceleration)
-- [] Sound (Conexant CX8070 Speaker)
-- [] Internal Microphone (Not tested)
-- [] Brightness
-- [] Intel AX201 Bluetooth
+- [ ] Intel Iris Xe Graphics (3D Acceleration)
+- [ ] Sound (Conexant CX8070 Speaker)
+- [ ] Internal Microphone (Not tested)
+- [ ] Brightness
+- [ ] Intel AX201 Bluetooth
 
 ## 🙏 Acknowledgments / References
 This project would not be possible without the work and research shared by the Hackintosh community:
