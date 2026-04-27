@@ -41,7 +41,7 @@ With all that ready, you should be able to boot with NootedGreen, Hookcase, and 
 
 ![](media/Screenshot%202026-04-27%20at%206.00.26%E2%80%AFAM.png)
 
-**If you have boot problems, delete AirportItlwm.kext from /OC/Kexts/ and OC Snapshot in the config.plist.**
+**If you have boot problems, delete AirportItlwm.kext from /OC/Kexts/ and make an OC Snapshot in the config.plist.**
 
 
 ## Working
