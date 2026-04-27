@@ -28,9 +28,7 @@ The primary EFI folder is designed as a baseline configuration:
 #### EXP EFI Folder (Only for NootedGreen + Hookcase + Bundles and kexts in /L/E)
 This EFI is exclusively for use with everything NootedGreen specifies. It is configured for use with TGL, therefore:
 
-- Hookcase is compiled with ```
-uint32_t registerValue = callback->readReg32(0x44470);
-```
+- Hookcase is compiled with ``` uint32_t registerValue = callback->readReg32(0x44470); ```
 to load TGL.
 
 - AppleIntelTGLGraphics and AppleIntelTGLGraphicsFramebuffer have ``` IOPCIPrimaryMatch: 0x9A498086 ``` to work with TGL. 
