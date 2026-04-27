@@ -30,8 +30,11 @@ This EFI is exclusively for use with everything NootedGreen specifies. It is con
 
 - Hookcase is compiled with ```
 uint32_t registerValue = callback->readReg32(0x44470);
-``` to load TGL.
+```
+to load TGL.
+
 - AppleIntelTGLGraphics and AppleIntelTGLGraphicsFramebuffer have ``` IOPCIPrimaryMatch: 0x9A498086 ``` to work with TGL. 
+
 - It should only be used after post-installation, with csrutil disabled, Apple* bundles and kext in /L/E, and Hookcase in /L/E/ Don't forget to apply the permissions to Apple* and Hookcase.
 
 More details in [NootedGreen Repository](https://github.com/sgiammori/NootedGreen).
